@@ -1,6 +1,6 @@
 # Setup
-title: Dark Poole
-url: https://getpoole.com
+title: Reprogrammed
+url: https://rprgrm.github.io
 paginate: 1
 baseurl: ""
 permalink: pretty
@@ -32,9 +32,9 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Mark Otto
-  url: https://twitter.com/mdo
-  email: markdotto@gmail.com
+  name: Eric Holloway
+  url: https://www.linkedin.com/in/eric-holloway-21b3168a/
+  email: e.holloway01@outlook.com
 
 # Custom vars
 version: 3.0.0
