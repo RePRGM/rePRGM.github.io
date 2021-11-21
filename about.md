@@ -30,4 +30,4 @@ After High School, I found myself enlisted in the United States Marine Corps whe
 
 ## Today
 
-Today, I am a Penetration Tester and aspiring Red Team Operator. Beyond the "cool" factor, it allows me to learn about and touch all aspects of IT, Cybersecurity, and Computer Science. There is a never-ending and always-expanding wealth of knowledge in this field and I love that. 
+Today, I am a Penetration Tester and aspiring Red Team Operator. Beyond the "cool" factor, it allows me to learn about and touch all aspects of IT, Cybersecurity, and Computer Science. There is a never-ending and always-expanding wealth of knowledge in this field and I love that. Currently, (as of 2021/11/20) I have the OSCP, eJPT, eCPPT certifications.
