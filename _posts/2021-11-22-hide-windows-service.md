@@ -3,7 +3,9 @@ layout: post
 title: Hiding Windows Services From View
 ---
 
-Some time last year (2020), I came across an interesting technique that allows an attacker to hide a Windows Service from view. Initially, I thought this technique would *only* hide the service from being viewed through commands like sc query, Get-Service or through the Task Manager. However, this is not the case. The hidden service also cannot be stopped until this technique is reversed and the service is made visible again.
+Some time last year (2020), I came across an interesting technique that allows an attacker to hide a Windows Service from view. Initially, I thought this technique would *only* hide the service from being viewed through commands like sc query, Get-Service or through the Task Manager. 
+
+However, this is not the case. The hidden service also cannot be stopped until this technique is reversed and the service is made visible again.
 
 -----
 
