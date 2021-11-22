@@ -9,6 +9,7 @@ I am Eric Holloway. I am a Penetration Tester, Cybersecurity enthusiast and an o
 
 You can also find me on:
 - [LinkedIn](https://www.linkedin.com/in/eric-holloway-21b3168a/)
+- [HackTheBox](https://app.hackthebox.com/profile/251326)
 
 ## Background
 
