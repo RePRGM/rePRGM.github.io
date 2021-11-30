@@ -64,8 +64,13 @@ Input validation and sanitization are also excellent options. Input validation i
 
 ## Resources
 [DOM XSS Explained](https://www.acunetix.com/blog/articles/dom-xss-explained/)
+
 [DOM Based XSS Software Attack](https://owasp.org/www-community/attacks/DOM_Based_XSS)
+
 [What is DOM Based XSS](https://portswigger.net/web-security/cross-site-scripting/dom-based)
+
 [Content-Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP)
+
 [Content-Security Policy - Google](https://developers.google.com/web/fundamentals/security/csp/)
+
 [Content-Security Policy: Use Cases](https://beaglesecurity.com/blog/article/content-security-policy.html)
