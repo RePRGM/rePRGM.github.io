@@ -39,7 +39,8 @@ Since the input variable is user-supplied, a malicious payload could be supplied
 
 ## What does it look like?
 A XSS payload can be as simple as &lt;script&gt;alert(1)&lt;/script&gt; or as complex as &lt;IMG SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116
-&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041&gt;.
+&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039
+&#0000088&#0000083&#0000083&#0000039&#0000041&gt;.
 
 While Flash and ActiveX can also be vectors for XSS, today, it tends to be javascript. So, any javascript code could potentially be a XSS payload. 
 Generally, &lt;script&gt;alert(1)&lt;/script&gt; is used to test for the vulnerability to see if it is exploitable. 
