@@ -23,16 +23,16 @@ An attacker can begin by inserting a single or double quotation mark anywhere th
 Consider the following query: 
 
 ```sql
-SELECT * FROM products WHERE category = ‘Gifts’ AND released = 1
+SELECT * FROM products WHERE category = 'Gifts' AND released = 1
 ```
 Using the URL example from earlier (www.example.com/products.php?category=Gifts), adding a single quote after “Gifts” in the URL changes the query to this:
 
 ```sql
-SELECT * FROM products WHERE category = ‘Gifts’’ AND released = 1
+SELECT * FROM products WHERE category = 'Gifts'' AND released = 1
 ```
 An error occurs due to this extra quotation mark. If the attacker then further changes the URL to *?category=Gifts’--*, the query changes to the following:
 ```sql
-SELECT * FROM products WHERE category = ‘Gifts’--’ AND released = 1
+SELECT * FROM products WHERE category = 'Gifts'--' AND released = 1
 ```
 This query will find all products where the category is gifts, ignoring the "AND" statement due to the usage of --. In this example, this will cause all products, released or not, in the gifts category to be displayed.	
 
