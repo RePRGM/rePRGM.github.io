@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Road to Red-Teaming: Defense Evasion
+title: Road to Red-Teaming - Defense Evasion
 ---
 
 Defense evasion is a topic that interests me and as such I’ve been spending some time researching various methods of doing so. This is a very in-depth topic and I have only scratched the surface of what is possible. 
