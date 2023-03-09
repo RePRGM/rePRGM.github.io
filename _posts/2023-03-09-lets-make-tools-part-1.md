@@ -122,17 +122,21 @@ As short as this code is, there is quite a bit going on here.
 
 First, we make a variable called completeList that will be a sequence of strings. 
 
-Then, we set it to equal to `wordlist.lines.toSeq.filterIt(
+Then, we assign it the return of `wordlist.lines.toSeq.filterIt(
 not it.startsWith(“#”) and not it.isEmptyOrWhitespace
 )`.
 
 Let’s break that down. `wordlist` is a string parameter of the procedure. This is the user provided wordlist. 
 
-`lines` is not a procedure, but an iterator. It takes a string parameter called filename. This is the `wordlist` parameter of our `parseWordList` procedure. Then, it opens the file of that name or errors out if it cannot (hence why we put it in a `try` block), and iterates through it line by lines. 
+`lines` is not a procedure, but an iterator. It takes a string parameter called filename. This is the `wordlist` parameter of our `parseWordList` procedure. 
+
+Then, it opens the file of that name or errors out if it cannot (hence why we put it in a `try` block), and iterates through it line by line. 
 
 Note: we can use iterators in loops as well. They are more or less the same as Python’s iterators.
 
-Next, we use the `toSeq` template (not a procedure) to turn an iterator, `lines` in this case, into a sequence. A sequence of what? Whatever the iterator returns. That is essentially what a template does. They can be thought of (in most statically typed languages that have them, not just Nim) as generic functions. Or as functions that don’t have a specific return type or have parameters of any specific type.
+Next, we use the `toSeq` template (not a procedure) to turn an iterator, `lines` in this case, into a sequence. A sequence of what? Whatever the iterator returns. That is essentially what a template does. 
+
+They can be thought of (in most statically typed languages that have them, not just Nim) as generic functions. Or as functions that don’t have a specific return type or have parameters of any specific type.
 
 `filterIt` is another template. It lets us apply certain logic to each item. In this case, each item within our sequence. As you can see, we are filtering out blank lines and lines that begin with the # symbol. These are usually comments. 
 
@@ -176,7 +180,7 @@ For this section we will need to import httpclient. We will also need to import 
 
 As an overview, all we are doing in this procedure is looping through every word in our wordlist, prepending our website url to it, making a request, and checking the response status code.
 
-The `newHttpClient` procedure should be simple to understand. It is how we create an HTTP client (instance).
+The `newHttpClient` procedure should be simple to understand. It is how we create a HTTP client (instance).
 
 There are optional parameters. The important one here is the sslContext parameter. This tells the client what to do with SSL/TLS certifications. If we wanted to ignore them, we can use this parameter to do so.
 
@@ -184,7 +188,7 @@ Moving on, we have the `head` procedure. It has two parameters. The first is the
 
 This Response object contains fields such as the status code. 
 
-On the next line, the `defer` statement works much like Python’s `with` statement. It lets Nim handle, in this case, closing the connection (which is what the `close` procedure does) when we are down with it.
+On the next line, the `defer` statement works much like Python’s `with` statement. It lets Nim handle, in this case, closing the connection (which is what the `close` procedure does) when we are done with it.
 
 And finally our last few lines. `Contains` and the `in` statement are actually very similar. `in` in Nim is actually just syntax “sugar” for `contains`. Both just look for a given string. We could also use the `==` operator here, but we would have to provide the _full_ string (as in “200 OK”).
 
