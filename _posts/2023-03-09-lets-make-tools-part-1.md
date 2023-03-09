@@ -6,7 +6,7 @@ title: Lets Make Tools – Simple Directory Brute Forcing
 ![Lets Make Tools](/assets/lets_make_malware_header.jpg)
 
 # Preamble
-Nim is a terrific language for malware development, but it is also a fantastic language for general purpose development. As we alluded to in our post titled [Why Nim](https://), the downside of Nim is that there are not a lot of tutorials, guides, or even code samples to learn from. 
+Nim is a terrific language for malware development, but it is also a fantastic language for general purpose development. As we alluded to in our post titled [Why Nim](https://reprgm.github.io/2023/02/13/why-nim/), the downside of Nim is that there are not a lot of tutorials, guides, or even code samples to learn from. 
 
 So, let’s rectify that. As an added bonus, we will also be contributing to the (semi-) legitimate use of Nim for software development (for once). 
 
