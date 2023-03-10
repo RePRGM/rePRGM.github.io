@@ -197,3 +197,21 @@ Also, _this_ `contains` is overloaded from the “default” one in system. This
 Note: Status code 302 seems to be a unique case, so that is why we have an `or` statement on that line.
 
 And there we have it! That is everything we need to know to create a simple directory brute force tool in Nim!
+
+# Resources
+
+[NimBust Advanced Project](https://github.com/RePRGM/Nimperiments/tree/main/NimBust)
+
+[Nim Docs: HttpClient](https://nim-lang.org/docs/httpclient.html)
+
+[Nim Docs: HttpCore](https://nim-lang.org/docs/httpcore.html)
+
+[Nim Docs: SeqUtils](https://nim-lang.org/docs/sequtils.html)
+
+[Nim Docs: Manual](https://nim-lang.org/docs/manual.html)
+
+[Nim Docs: Standard Library](https://nim-lang.org/docs/lib.html)
+
+[Nim By Example](https://nim-by-example.github.io/)
+
+[Nim Playground](https://play.nim-lang.org/)
