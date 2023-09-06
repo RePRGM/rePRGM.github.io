@@ -117,7 +117,7 @@ Writing to disk should generally be avoided for OPSEC, but what’s worse is tha
 
 Thankfully, yet again we have options. 
 
-We can use a callback to obfuscate the contents or even keep everything in memory.
+`MiniDumpWriteDump` has a parameter for a callback function we can use to obfuscate the contents or even keep everything in memory.
 
 Alternatively, we can make use of “Delete on Close” functionality, which is the approach EvilLsassTwin takes.
 
