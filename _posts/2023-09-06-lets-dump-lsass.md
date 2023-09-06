@@ -68,7 +68,9 @@ Gaining a handle to LSASS in the first place is usually where scrutiny lies. `Op
 
 So, any EDR worth the cash will see a process attempting to gain a handle to LSASS of all things. That’s a bit suspicious on its own, but not necessarily a grave offense. 
 
-Next, the EDR will look at what rights we are requesting either through the hook or through a kernel callback for object handle creation/duplication. 
+_Note: In the face of PPL, processes cannot gain a handle to LSASS at all unless they run at the same level or higher. In these cases, we can make use of a vulnerable system driver such as procexp.sys to gain our handle._
+
+Next, the EDR will look at what access rights we are requesting either through the hook or through a kernel callback for object handle creation/duplication. 
 
 PROCESS_VM_READ? PROCESS_ALL_ACCESS? To LSASS? Highly suspicious.
 
