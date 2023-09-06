@@ -50,7 +50,7 @@ This method is arguably even less stealthy than simply going through task manage
 
 We can, of course, use third-party executables and scripts to dump LSASS. The sky is the limit here as there are plenty to choose from. 
 
-Some examples are ProcDump from Sysintenals, nanodump, mimikatz, secretsdump, and of course our own EvilLsassTwin.
+Some examples are ProcDump from Sysintenals, nanodump, mimikatz, secretsdump, and of course our own [EvilLsassTwin](https://github.com/RePRGM/Nimperiments/tree/main/EvilLsassTwin).
 
 The problem with most of these is that AVs have signatures for them and will block them from running. 
 
