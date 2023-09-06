@@ -200,3 +200,7 @@ So, while we _have_ disassociated our malicious executable from the process of d
 [Hexacorn - SilentProcessExit - Quick Look Under the Hood](https://www.hexacorn.com/blog/2019/09/19/silentprocessexit-quick-look-under-the-hood/)
 
 [Rasta Mouse - Dumping LSASS with Duplicated Handles](https://rastamouse.me/dumping-lsass-with-duplicated-handles/)
+
+[Bussink - LSASS Minidump File Seen as Malicious by McAfee AV](https://www.bussink.net/lsass-minidump-file-seen-as-malicious-by-mcafee-av/)
+
+[Powerseb - LSASS Parsing without a Cat](https://powerseb.github.io/posts/LSASS-parsing-without-a-cat/)
