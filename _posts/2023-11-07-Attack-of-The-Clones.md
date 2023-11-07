@@ -176,7 +176,7 @@ Let’s go through this Nim code piece by piece.
 
 First, since `NtCreateProcessEx` is an undocumented function, we cannot simply call it. First, we define its function signature. This is the line starting with type.
 
-Second, we create a convenience function. This is our “toString” function (credits to …). All we do here is convert a byte array to a Nim String type.
+Second, we create a convenience function. This is our “toString” function (credits to [the Offensive Nim repo and @byt3bl33d3r](https://github.com/byt3bl33d3r/OffensiveNim/tree/master)). All we do here is convert a byte array to a Nim String type.
 
 Next, we have our "getCleanNTDLL" function. The first thing it does is get a handle to ntdll.dll. Then, using this handle, we find and save the address of the `NtCreateProcessEx` function so we can use it.
 
