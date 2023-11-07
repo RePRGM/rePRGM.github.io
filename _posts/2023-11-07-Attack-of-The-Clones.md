@@ -88,7 +88,7 @@ This excellent post will also be linked in the resources section.
 So, what does all this look like in code? 
 
 Well, it looks mostly identical to code for unhooking from a suspended process. 
-_Note: this code is also available [here](https://github.com/RePRGM/Nimperiments/blob/main/unhook-from-clone.nim)
+_Note: this code is also available [here](https://github.com/RePRGM/Nimperiments/blob/main/unhook-from-clone.nim)_
 
 ```nim
 import winim
